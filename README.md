@@ -3,7 +3,7 @@ Hi! 👀 <br/> I'm Esteban 👋😊
 
 I'm a software developer starting with a leadership role as a tech lead.
 
-I'm 21 yo, Colombian, a Ruby/RoR lover 🔻, I like JS too but Ruby is my main.
+I'm 23 yo, Colombian, a Ruby/RoR lover 🔻, I like JS too but Ruby is my main.
 
 I like reading a lot, playing some videogames and I also like watching some series and anime 📺.
 
