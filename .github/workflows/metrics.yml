@@ -2,7 +2,11 @@ name: Profile cards
 
 on:
   schedule:
-    - cron: "0 11 * * *"   # daily, 06:00 America/Bogota
+    # Mondays 06:37 America/Bogota. Off the hour on purpose: GitHub warns that
+    # scheduled runs can be dropped outright during the load spike at :00.
+    # Weekly rather than monthly so the repo keeps enough activity that GitHub
+    # does not auto-disable the schedule after 60 days of quiet.
+    - cron: "37 11 * * 1"
   workflow_dispatch:
   push:
     branches: [master]
