@@ -1,36 +1,51 @@
-Hi! 👀 <br/> I'm Esteban 👋😊
-======
+<h1 align="center">Hi! 👀 <br/> I'm Esteban 👋😊</h1>
 
-I'm a software developer starting with a leadership role as a tech lead.
+---
 
-I'm 25 yo, Colombian, a Ruby/RoR lover 🔻, I like JS too, but Ruby is my main.
+I'm a senior software engineer based in Medellín, Colombia.
+
+I'm 26 yo, Colombian, a Ruby/RoR lover 🔻, I like JS too, but Ruby is my main.
+
+Lately I'm playing around a lot with AI stuff: MCP servers, agent skills, and building software with LLMs.
 
 I like reading a lot, playing some video games and I also like watching some series and anime 📺.
 
-<details>
-	<summary><b>Technologies</b></summary>
-	<img src='https://img.shields.io/badge/ruby-%23CC342D.svg?&style=for-the-badge&logo=ruby&logoColor=white' alt='Ruby'/>
-	<img src='https://img.shields.io/badge/rails-%23CC0000.svg?&style=for-the-badge&logo=ruby-on-rails&logoColor=white' alt='Rails'/>
-	<img src='https://img.shields.io/badge/postgres-%23316192.svg?&style=for-the-badge&logo=postgresql&logoColor=white' alt='Postgres'/>
-	<img src='https://img.shields.io/badge/MongoDB-%234ea94b.svg?&style=for-the-badge&logo=mongodb&logoColor=white' alt='MongoDB'/>
-	<img src='https://img.shields.io/badge/redis-%23DD0031.svg?&style=for-the-badge&logo=redis&logoColor=white' alt='Redis'/>
-	<img src='https://img.shields.io/badge/react-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB' alt='React'/>
-	<img src='https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23f7de1e' alt='JavaScript'/>
-	<img src='https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql' alt='Apollo-GraphQL'/>
-	<img src='https://img.shields.io/badge/html5-%23e34f26.svg?&style=for-the-badge&logo=html5&logoColor=white' alt='HTML5'/>
-	<img src='https://img.shields.io/badge/css3-%233573b5.svg?&style=for-the-badge&logo=css3&logoColor=white' alt='CSS3'/>
-	<img src='https://img.shields.io/badge/git-%23fc6d26.svg?&style=for-the-badge&logo=git&logoColor=white' alt='Git'/>
-	<img src='https://img.shields.io/badge/GoogleCloud-%234285F4.svg?&style=for-the-badge&logo=google-cloud&logoColor=white' alt='Google Cloud'/>
-	<img src='https://img.shields.io/badge/CIRCLECI-%23161616.svg?&style=for-the-badge&logo=circleci&logoColor=white' alt='CircleCI'/>
-</details>
+<br/>
 
-<details> 
-	<summary><b>GitHub Stats</b></summary>
-	<br/>
-	<img src='https://jf-gh-stats.vercel.app/api?username=estebansa19&show_icons=true&count_private=true&title_color=afc2ef&icon_color=afc2ef&theme=react' alt='GitHub Stats' align='top'/>
-	<img src='https://jf-gh-stats.vercel.app/api/top-langs/?username=estebansa19&layout=compact&title_color=afc2ef&icon_color=afc2ef&theme=react' alt='GitHub Top Languages' align='top'/>
-</details>
+### Technologies
 
-----
+<p>
+  <img src="https://skillicons.dev/icons?i=ruby,rails,go,ts,js,react,nextjs,astro&theme=dark" alt="Ruby, Rails, Go, TypeScript, JavaScript, React, Next.js, Astro"/>
+  <br/>
+  <img src="https://skillicons.dev/icons?i=postgres,redis,graphql,docker,aws,gcp,tailwind,git&theme=dark" alt="PostgreSQL, Redis, GraphQL, Docker, AWS, Google Cloud, Tailwind, Git"/>
+</p>
 
-[<img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>](https://www.linkedin.com/in/esteban-saldarriaga-alzate-77a076177/)
+<br/>
+
+### Currently building
+
+- Software with quality that lasts for years, with the help of LLMs
+- MCP servers
+- Agent skills for Claude Code, Codex and OpenCode
+
+<br/>
+
+### GitHub Stats
+
+<p align="center">
+  <img src="./metrics/overview.svg" alt="GitHub overview" width="420" align="top"/>
+  <img src="./metrics/languages.svg" alt="Most used languages" width="420" align="top"/>
+</p>
+
+<br/>
+
+---
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/esteban-saldarriaga-alzate-77a076177/">
+    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+  </a>
+  <a href="https://estebansa19.github.io">
+    <img src="https://img.shields.io/badge/Website-%23000000.svg?&style=for-the-badge&logo=astro&logoColor=white" alt="Website"/>
+  </a>
+</p>
