@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="129" viewBox="0 0 480 129" role="img" aria-label="Most used languages">
-<style>.t{font:600 15px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;fill:#0366d6}.l{font:400 12px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;fill:#8b949e}</style>
+<style>.t{font:600 15px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;fill:#0366d6}.n{font:600 24px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;fill:#0366d6}.l{font:400 12px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;fill:#8b949e}.s{font:400 11px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;fill:#8b949e}</style>
 <rect x="0.5" y="0.5" width="479" height="128" rx="6" fill="none" stroke="#8b949e" stroke-opacity="0.35"/>
 <text x="24" y="34" class="t">Most used languages</text>
 <clipPath id="bar"><rect x="24" y="50" width="432" height="9" rx="4.5"/></clipPath>
