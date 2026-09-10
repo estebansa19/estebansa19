@@ -1,4 +1,4 @@
-name: Profile metrics
+name: Profile cards
 
 on:
   schedule:
@@ -10,42 +10,32 @@ on:
       - 'metrics/**'
 
 jobs:
-  metrics:
+  cards:
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - name: Overview
-        uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: estebansa19
-          filename: metrics/overview.svg
-          template: classic
-          base: header, activity, community, repositories
-          config_timezone: America/Bogota
-          repositories_affiliations: owner, collaborator, organization_member
-
-      # The metrics languages plugin renders an empty card - its own published
-      # example has a language count but no bars - so build that card directly.
-      - name: Most used languages
+      # Both cards are generated here rather than by a third-party action: the
+      # upstream languages plugin renders empty, and its overview card was all
+      # zeroes for work that is private rather than absent.
+      - name: Generate cards
         env:
           GH_TOKEN: ${{ secrets.METRICS_TOKEN }}
-        run: python3 .github/scripts/languages_card.py
-
-      - name: Commit languages card
         run: |
-          if git diff --quiet -- metrics/languages.svg; then
-            echo "languages card unchanged"
+          python3 .github/scripts/overview_card.py
+          python3 .github/scripts/languages_card.py
+
+      - name: Commit cards
+        run: |
+          if git diff --quiet -- metrics; then
+            echo "cards unchanged"
             exit 0
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add metrics/languages.svg
-          git commit -m "Update metrics/languages.svg - [Skip GitHub Action]"
-          # The metrics step commits via the API, so the remote is already ahead.
-          git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+          git add metrics
+          git commit -m "Update profile cards [skip ci]"
           git push origin "HEAD:${GITHUB_REF_NAME}"

@@ -8,6 +8,8 @@ which matters here because most real work lives in private repos.
 """
 import collections, html, json, os, sys, urllib.request
 
+import card
+
 # Data, markup and config languages crowd out what is actually written by hand:
 # a single SQL dump or vendored asset otherwise dominates the whole card.
 EXCLUDED = {
@@ -17,7 +19,8 @@ EXCLUDED = {
     "procfile", "vim script", "vim snippet", "roff", "tex", "coffeescript",
 }
 # Anything under THRESHOLD is a stray vendored file, not a language someone uses.
-LIMIT, THRESHOLD, WIDTH, PAD, BAR_H, ROW_H = 8, 0.005, 480, 24, 9, 22
+LIMIT, THRESHOLD, BAR_H, ROW_H = 8, 0.005, 9, 22
+WIDTH, PAD = card.WIDTH, card.PAD
 
 QUERY = """
 query($cursor: String) {
@@ -76,17 +79,7 @@ def render(totals, colors):
     rows = (len(top) + 1) // 2
     height = 50 + BAR_H + 26 + (rows - 1) * ROW_H + 22
 
-    out = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{height}" '
-        f'viewBox="0 0 {WIDTH} {height}" role="img" aria-label="Most used languages">',
-        '<style>'
-        '.t{font:600 15px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;fill:#0366d6}'
-        '.l{font:400 12px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;fill:#8b949e}'
-        '</style>',
-        f'<rect x="0.5" y="0.5" width="{WIDTH - 1}" height="{height - 1}" rx="6" '
-        f'fill="none" stroke="#8b949e" stroke-opacity="0.35"/>',
-        f'<text x="{PAD}" y="34" class="t">Most used languages</text>',
-    ]
+    out = card.open_svg(height, "Most used languages", "Most used languages")
 
     # One rounded strip, clipped, so segments meet flush with no seams.
     out.append(f'<clipPath id="bar"><rect x="{PAD}" y="50" width="{inner}" height="{BAR_H}" rx="{BAR_H / 2}"/></clipPath>')
@@ -106,8 +99,7 @@ def render(totals, colors):
         out.append(f'<circle cx="{cx + 5}" cy="{cy - 4}" r="5" fill="{colors[name]}"/>')
         out.append(f'<text x="{cx + 16}" y="{cy}" class="l">{html.escape(name)} {pct:.1f}%</text>')
 
-    out.append('</svg>')
-    return "\n".join(out) + "\n", top
+    return card.close_svg(out), top
 
 
 if __name__ == "__main__":
