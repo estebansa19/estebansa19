@@ -1,20 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="129" viewBox="0 0 480 129" role="img" aria-label="Most used languages">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="151" viewBox="0 0 480 151" role="img" aria-label="Most used languages">
 <style>.t{font:600 15px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;fill:#0366d6}.n{font:600 24px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;fill:#0366d6}.l{font:400 12px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;fill:#8b949e}.s{font:400 11px -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;fill:#8b949e}</style>
-<rect x="0.5" y="0.5" width="479" height="128" rx="6" fill="none" stroke="#8b949e" stroke-opacity="0.35"/>
+<rect x="0.5" y="0.5" width="479" height="150" rx="6" fill="none" stroke="#8b949e" stroke-opacity="0.35"/>
 <text x="24" y="34" class="t">Most used languages</text>
 <clipPath id="bar"><rect x="24" y="50" width="432" height="9" rx="4.5"/></clipPath>
 <g clip-path="url(#bar)">
-<rect x="24.00" y="50" width="288.96" height="9" fill="#701516"/>
-<rect x="312.96" y="50" width="89.59" height="9" fill="#f1e05a"/>
-<rect x="402.55" y="50" width="51.21" height="9" fill="#3178c6"/>
-<rect x="453.76" y="50" width="2.24" height="9" fill="#00ADD8"/>
+<rect x="24.00" y="50" width="282.55" height="9" fill="#701516"/>
+<rect x="306.55" y="50" width="87.71" height="9" fill="#f1e05a"/>
+<rect x="394.26" y="50" width="54.97" height="9" fill="#3178c6"/>
+<rect x="449.22" y="50" width="4.59" height="9" fill="#A97BFF"/>
+<rect x="453.81" y="50" width="2.19" height="9" fill="#00ADD8"/>
 </g>
 <circle cx="29.0" cy="81" r="5" fill="#701516"/>
-<text x="40.0" y="85" class="l">Ruby 66.9%</text>
+<text x="40.0" y="85" class="l">Ruby 65.4%</text>
 <circle cx="245.0" cy="81" r="5" fill="#f1e05a"/>
-<text x="256.0" y="85" class="l">JavaScript 20.7%</text>
+<text x="256.0" y="85" class="l">JavaScript 20.3%</text>
 <circle cx="29.0" cy="103" r="5" fill="#3178c6"/>
-<text x="40.0" y="107" class="l">TypeScript 11.9%</text>
-<circle cx="245.0" cy="103" r="5" fill="#00ADD8"/>
-<text x="256.0" y="107" class="l">Go 0.5%</text>
+<text x="40.0" y="107" class="l">TypeScript 12.7%</text>
+<circle cx="245.0" cy="103" r="5" fill="#A97BFF"/>
+<text x="256.0" y="107" class="l">Kotlin 1.1%</text>
+<circle cx="29.0" cy="125" r="5" fill="#00ADD8"/>
+<text x="40.0" y="129" class="l">Go 0.5%</text>
 </svg>
