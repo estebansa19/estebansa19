@@ -42,7 +42,7 @@ I like reading a lot, playing some video games and I also like watching some ser
 ---
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/esteban-saldarriaga-alzate-77a076177/">
+  <a href="https://www.linkedin.com/in/estebansaldarriaga/">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="https://estebansa19.github.io">
