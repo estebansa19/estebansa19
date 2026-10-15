@@ -2,11 +2,11 @@
 
 ---
 
-I'm a senior software engineer based in Medellín, Colombia.
+I'm a Senior Software Engineer based in Medellín, Colombia. Since 2018 I've been building web platforms in Ruby on Rails for US and LatAm companies across fintech, subscription billing and logistics.
 
-I'm 26 yo, Colombian, a Ruby/RoR lover 🔻, I like JS too, but Ruby is my main.
+Ruby is my main language 🔻, and I work across the stack with React and TypeScript too.
 
-Lately I'm playing around a lot with AI stuff: MCP servers, agent skills, and building software with LLMs.
+AI is now a core part of how I build software: MCP servers, agent skills, and AI-driven workflows to ship features faster.
 
 I like reading a lot, playing some video games and I also like watching some series and anime 📺.
 
