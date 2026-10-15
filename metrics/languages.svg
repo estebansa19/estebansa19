@@ -4,10 +4,10 @@
 <text x="24" y="34" class="t">Most used languages</text>
 <clipPath id="bar"><rect x="24" y="50" width="432" height="9" rx="4.5"/></clipPath>
 <g clip-path="url(#bar)">
-<rect x="24.00" y="50" width="282.13" height="9" fill="#701516"/>
-<rect x="306.13" y="50" width="88.06" height="9" fill="#f1e05a"/>
-<rect x="394.19" y="50" width="55.00" height="9" fill="#3178c6"/>
-<rect x="449.20" y="50" width="4.62" height="9" fill="#A97BFF"/>
+<rect x="24.00" y="50" width="281.91" height="9" fill="#701516"/>
+<rect x="305.91" y="50" width="88.07" height="9" fill="#f1e05a"/>
+<rect x="393.98" y="50" width="55.22" height="9" fill="#3178c6"/>
+<rect x="449.20" y="50" width="4.61" height="9" fill="#A97BFF"/>
 <rect x="453.81" y="50" width="2.19" height="9" fill="#00ADD8"/>
 </g>
 <circle cx="29.0" cy="81" r="5" fill="#701516"/>
@@ -15,7 +15,7 @@
 <circle cx="245.0" cy="81" r="5" fill="#f1e05a"/>
 <text x="256.0" y="85" class="l">JavaScript 20.4%</text>
 <circle cx="29.0" cy="103" r="5" fill="#3178c6"/>
-<text x="40.0" y="107" class="l">TypeScript 12.7%</text>
+<text x="40.0" y="107" class="l">TypeScript 12.8%</text>
 <circle cx="245.0" cy="103" r="5" fill="#A97BFF"/>
 <text x="256.0" y="107" class="l">Kotlin 1.1%</text>
 <circle cx="29.0" cy="125" r="5" fill="#00ADD8"/>
